@@ -1,7 +1,3 @@
-/* =========================
-   BASIC RESET
-========================= */
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,12 +10,7 @@ body {
     color: #222;
 }
 
-
-/* =========================
-   GRID PAGE SKELETON
-========================= */
-
-.page {
+.div1 {
     min-height: 100vh;
 
     display: grid;
