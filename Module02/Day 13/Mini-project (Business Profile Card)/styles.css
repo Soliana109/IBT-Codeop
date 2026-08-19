@@ -1,0 +1,40 @@
+*{
+    margin: 5%;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+   }
+
+.card{
+    position: relative;
+    width: 360px;
+    background: white;
+    margin: 30%;
+    border-radius: 10%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);/*NOTETOSELF: 0 means horizontal offset, 8px means vertical offset (shadow appears below)
+                                               20px means blur radius, rgba(0, 0, 0, 0.12) means black shadow at 12% opacity*/
+}
+
+.info{
+    text-align: left;
+    margin: var(--space-lg) 0;
+}
+
+.btn{
+    display: block;
+    text-decoration:none;
+    color: black;
+    padding: 10%;
+    margin: 30%;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn:hover{
+    background: var(--primary-hover);
+}

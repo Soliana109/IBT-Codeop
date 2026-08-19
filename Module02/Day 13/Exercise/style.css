@@ -1,0 +1,95 @@
+/* Question 1 */
+
+:root {
+    --color1: green;
+    --color2: white;
+    --space: 10px;
+    --font: Arial;
+}
+
+.myButton {
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: var(--space);
+    font-family: var(--font);
+}
+
+
+/* Question 2 */
+
+.card {
+    width: 300px;
+    padding: 24px;
+    border: 2px solid black;
+
+    /* Fixes the width to exactly 300px */
+    box-sizing: border-box;
+}
+
+
+/* Question 3 */
+
+p {
+    color: blue;
+}
+
+.text {
+    color: green;
+}
+
+#myText {
+    color: red;
+}
+
+
+/* Question 4 */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+
+/* Question 5 */
+
+.green {
+    background-color: hsl(139, 90%, 28%);
+    padding: 10px;
+}
+
+.green:hover {
+    background-color: hsl(139, 90%, 40%);
+}
+
+.yellow {
+    background-color: hsl(52, 98%, 51%);
+    padding: 10px;
+}
+
+.yellow:hover {
+    background-color: hsl(52, 98%, 65%);
+}
+
+.red {
+    background-color: hsl(358, 85%, 46%);
+    color: white;
+    padding: 10px;
+}
+
+.red:hover {
+    background-color: hsl(358, 85%, 58%);
+}
