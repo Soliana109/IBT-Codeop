@@ -199,7 +199,7 @@ body {
 }
 
 /*LAPTOP VERSION*/
-@media (min-width: 769px) {
+@media (min-width: 700px) {
     .div1 {
         grid-template-columns: 250px 1fr;
         grid-template-rows: auto 1fr auto;
