@@ -1,40 +1,45 @@
-*{
-    margin: 5%;
-    padding: 5;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     display: flex;
-   }
-
-.card{
-    position: relative;
-    width: 360px;
-    background: white;
-    margin: 30%;
-    border-radius: 10%;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);/*NOTETOSELF: 0 means horizontal offset, 8px means vertical offset (shadow appears below)
-                                               20px means blur radius, rgba(0, 0, 0, 0.12) means black shadow at 12% opacity*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5f5;
 }
 
-.info{
+.card {
+    width: 360px;
+    background: rgb(247, 229, 229);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);/* NOTE TO SELF: 0 means horizontal offset 8px means vertical offset (shadow appears below) 20px means blur radius rgba(0, 0, 0, 0.12) means black shadow at 12% opacity*/
+    text-align: center;
+}
+.info {
     text-align: left;
     margin: var(--space-lg) 0;
+    line-height: 1.6;
 }
 
-.btn{
+.btn {
     display: block;
-    text-decoration:none;
-    color: black;
-    padding: 10%;
-    margin: 30%;
+    text-decoration: none;
+    color: rgb(227, 47, 179);
+    background: var(--primary);
+    padding: 12px;
+    margin-top: 20px;
     border-radius: 10px;
     font-weight: 600;
     transition: background 0.3s ease;
 }
 
-.btn:hover{
+.btn:hover {
     background: var(--primary-hover);
 }
+
