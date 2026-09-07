@@ -1,0 +1,92 @@
+/* Question 1 */
+:root {
+    --main-color: blue;
+    --text-color: white;
+    --spacing: 15px;
+    --font-stack: Arial, sans-serif;
+}
+
+.my-button {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    padding: var(--spacing);
+    font-family: var(--font-stack);
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Question 2 */
+
+.card {
+    width: 300px;
+    padding: 24px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+
+/* Question 3 */
+
+p {
+    color: blue;
+}
+
+.text {
+    color: green;
+}
+
+#special {
+    color: red;
+}
+
+
+/* Question 4 */
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: green;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid gray;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+
+/* Question 5 */
+.red {
+    color: hsl(0, 100%, 50%);
+    padding: 10px;
+}
+
+.red:hover {
+    color: hsl(0, 100%, 70%);
+}
+
+.green {
+    color: hsl(120, 100%, 50%);
+    padding: 10px;
+}
+
+.green:hover {
+    color: hsl(120, 100%, 70%);
+}
+
+.blue {
+    color: hsl(240, 100%, 50%);
+    padding: 10px;
+}
+.blue:hover {
+    color: hsl(240, 100%, 70%);
+}
