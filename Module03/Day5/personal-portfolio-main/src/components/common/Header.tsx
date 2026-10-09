@@ -43,7 +43,7 @@ const Header = () => {
           <img
             src={logo}
             alt="Logo"
-            className="w-12 h-12 rounded-full border-2 border-indigo-600 dark:border-indigo-400"
+            className="w-12 h-12 rounded-full border-2 border-sage-600 dark:border-sage-400"
           />
         </Link>
 
@@ -55,8 +55,8 @@ const Header = () => {
               to={link.href}
               className={`font-medium transition-colors duration-300 ${
                 isActive(link.href)
-                  ? "text-indigo-600 dark:text-indigo-400"
-                  : "text-gray-700 dark:text-gray-200 hover:text-indigo-500 dark:hover:text-indigo-300"
+                  ? "text-sage-700 dark:text-sage-300"
+                  : "text-gray-700 dark:text-gray-200 hover:text-sage-600 dark:hover:text-sage-300"
               }`}
             >
               {link.name}
@@ -93,8 +93,8 @@ const Header = () => {
               onClick={() => setIsOpen(false)}
               className={`font-medium transition-colors duration-300 ${
                 isActive(link.href)
-                  ? "text-indigo-600 dark:text-indigo-400"
-                  : "text-gray-700 dark:text-gray-200 hover:text-indigo-500 dark:hover:text-indigo-300"
+                  ? "text-sage-700 dark:text-sage-300"
+                  : "text-gray-700 dark:text-gray-200 hover:text-sage-600 dark:hover:text-sage-300"
               }`}
             >
               {link.name}

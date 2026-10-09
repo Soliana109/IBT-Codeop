@@ -2,24 +2,24 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className="relative w-full bg-gradient-to-r from-purple-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 py-20"
+      className="relative w-full bg-gradient-to-r from-sage-50 to-sage-100 dark:from-gray-900 dark:to-gray-800 py-20"
     >
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center md:space-x-12">
 
         
         {/* Text Content */}
         <div className="text-center md:text-left space-y-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-indigo-600 dark:text-indigo-400">
+          <h2 className="text-3xl md:text-4xl font-bold text-sage-700 dark:text-sage-300">
             About Me
           </h2>
 
           <p className="text-gray-700 dark:text-gray-200 text-lg md:text-xl leading-relaxed">
             Hi! I’m <span className="font-semibold">Soliana</span>, a GC{" "}
-            <span className="font-semibold text-indigo-600">
+            <span className="font-semibold text-sage-700">
               and a full stack developer
             </span>{" "}
             currently getting my degree in{" "}
-            <span className="font-medium text-indigo-500">
+            <span className="font-medium text-sage-600">
               Computer Science
             </span>.
             <br /><br />
@@ -30,7 +30,7 @@ const AboutSection = () => {
             <br /><br />
 
             I mainly focus on{" "}
-            <span className="text-indigo-500 font-medium">
+            <span className="text-sage-600 font-medium">
             frontend development
             </span>, and I enjoy creating clean, user-friendly digital experiences
             that are both functional and visually engaging.
@@ -38,7 +38,7 @@ const AboutSection = () => {
 
           <a
             href="#projects"
-            className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg shadow-lg hover:bg-indigo-500 transition-all font-medium"
+            className="inline-block px-6 py-3 bg-sage-700 text-white rounded-lg shadow-lg hover:bg-sage-600 transition-all font-medium"
           >
             See My Work
           </a>

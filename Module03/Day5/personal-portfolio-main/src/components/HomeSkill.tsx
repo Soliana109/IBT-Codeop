@@ -9,7 +9,7 @@ const skills = [
     description:
       "Building responsive, scalable, and high-performance web applications using modern frontend technologies.",
     icon: (
-      <ComputerDesktopIcon className="w-12 h-12 text-indigo-500" />
+      <ComputerDesktopIcon className="w-12 h-12 text-sage-600" />
     ),
   },
   {
@@ -27,11 +27,11 @@ const SkillsSection = () => {
   return (
     <section
       id="skills"
-      className="w-full bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 py-20"
+      className="w-full bg-gradient-to-r from-sage-50 to-sage-100 dark:from-gray-900 dark:to-gray-800 py-20"
     >
       <div className="max-w-7xl mx-auto px-6 text-center">
         {/* Section Title */}
-        <h2 className="text-3xl md:text-4xl font-bold text-indigo-600 dark:text-indigo-400 mb-6">
+        <h2 className="text-3xl md:text-4xl font-bold text-sage-700 dark:text-sage-300 mb-6">
           My Expertise
         </h2>
 

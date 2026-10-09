@@ -13,26 +13,20 @@ const HomeProjects = () => {
 
         {/* Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-indigo-600 dark:text-indigo-400">
+          <h2 className="text-3xl md:text-4xl font-bold text-sage-700 dark:text-sage-300">
             Projects
           </h2>
         </div>
 
         {/* Only show first 3 projects */}
         <div className="space-y-16">
-          {projects.slice(0, 3).map((project, index) => (
+          {projects.slice(0, 3).map((project) => (
             <div
               key={project.slug}
-              className={`grid lg:grid-cols-2 gap-10 items-center ${
-                index % 2 !== 0 ? "lg:grid-flow-dense" : ""
-              }`}
+              className="grid lg:grid-cols-2 gap-10 items-center"
             >
               {/* Image */}
-              <div
-                className={`${
-                  index % 2 !== 0 ? "lg:col-start-2" : ""
-                }`}
-              >
+              <div>
                 <div className="overflow-hidden rounded-3xl shadow-xl border border-gray-200 dark:border-gray-800">
                   <img
                     src={project.image}
@@ -43,11 +37,7 @@ const HomeProjects = () => {
               </div>
 
               {/* Content */}
-              <div
-                className={`${
-                  index % 2 !== 0 ? "lg:col-start-1" : ""
-                }`}
-              >
+              <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
                   {project.title}
                 </h3>
@@ -61,7 +51,7 @@ const HomeProjects = () => {
                   {project.technologies?.map((tech: string) => (
                     <span
                       key={tech}
-                      className="px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300 text-sm font-medium"
+                      className="px-4 py-2 rounded-full bg-sage-100 text-sage-800 dark:bg-sage-900 dark:text-sage-200 text-sm font-medium"
                     >
                       {tech}
                     </span>
@@ -76,7 +66,7 @@ const HomeProjects = () => {
                         key={item}
                         className="flex items-center gap-2 text-gray-700 dark:text-gray-300"
                       >
-                        <span className="text-green-500">✓</span>
+                        <span className="text-sage-600">✓</span>
                         {item}
                       </li>
                     ))}
@@ -88,7 +78,7 @@ const HomeProjects = () => {
 
                   <Link
                     to={`/projects/${project.slug}`}
-                    className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-sage-700 text-white rounded-xl hover:bg-sage-800 transition"
                   >
                     View Project
                     <ArrowTopRightOnSquareIcon className="w-5 h-5" />

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: global custom styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  /* 🔥 Hide scrollbar (Chrome, Safari, Edge) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* 🔥 Hide scrollbar (Firefox) */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+}

@@ -156,7 +156,7 @@ const ProjectDetails = () => {
                 onClick={() => scrollToIndex(index)}
                 className={`transition-all duration-300 rounded-full ${
                   activeIndex === index
-                    ? "w-8 h-3 bg-indigo-600"
+                    ? "w-8 h-3 bg-sage-700"
                     : "w-3 h-3 bg-gray-300 dark:bg-gray-600"
                 }`}
               />
@@ -186,10 +186,10 @@ const ProjectDetails = () => {
                 inline-flex items-center gap-2
                 mt-6
                 px-6 py-3
-                bg-indigo-600
+                bg-sage-700
                 text-white
                 rounded-xl
-                hover:bg-indigo-700
+                hover:bg-sage-800
                 transition
               "
             >
@@ -216,10 +216,10 @@ const ProjectDetails = () => {
               className="
                 px-4 py-2
                 rounded-full
-                bg-indigo-100
-                text-indigo-700
-                dark:bg-indigo-900
-                dark:text-indigo-300
+                bg-sage-100
+                text-sage-800
+                dark:bg-sage-900
+                dark:text-sage-200
                 text-sm
               "
             >

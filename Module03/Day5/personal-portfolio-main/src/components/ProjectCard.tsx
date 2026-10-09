@@ -20,7 +20,7 @@ const ProjectCard = ({ project }: { project: ProjectItem }) => {
           {(project.technologies ?? []).slice(0, 3).map((tech: string) => (
             <span
               key={tech}
-              className="text-xs px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full"
+              className="text-xs px-3 py-1 bg-sage-100 text-sage-800 rounded-full"
             >
               {tech}
             </span>
@@ -29,7 +29,7 @@ const ProjectCard = ({ project }: { project: ProjectItem }) => {
 
         <Link
           to={`/projects/${project.slug}`}
-          className="inline-block mt-5 text-indigo-600 font-medium hover:underline"
+          className="inline-block mt-5 text-sage-700 font-medium hover:underline"
         >
           View Project →
         </Link>

@@ -29,8 +29,8 @@ const ProjectCategories = ({ onSelect }: Props) => {
                 px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 border
                 ${
                   isActive
-                    ? "bg-indigo-600 text-white border-indigo-600 shadow-lg scale-105"
-                    : "bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-700 hover:border-indigo-500 hover:text-indigo-500"
+                    ? "bg-sage-700 text-white border-sage-700 shadow-lg scale-105"
+                    : "bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-700 hover:border-sage-600 hover:text-sage-700"
                 }
               `}
             >

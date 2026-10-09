@@ -1,5 +1,6 @@
 import Bimage1 from "../assets/Bimage1.png";
 import Bimage2 from "../assets/Bimage2.png";
+import SolisRecipesImage from "../assets/Soliarecipies.png";
 
 export type ProjectItem = {
   slug: string;
@@ -38,5 +39,25 @@ export const projects: ProjectItem[] = [
     ],
     challenge: "Finding a simple and understandable website to budget on.",
     solution: "Design a simple and understandable website to budget on.",
+  },
+  {
+    slug: "solis-recipies",
+    title: "Soli's Recipies",
+    description:
+      "A recipe discovery app for exploring Ethiopian and international dishes with search, category filters, and saved recipes.",
+    category: "Frontend",
+    image: SolisRecipesImage,
+    images: [SolisRecipesImage],
+    liveLink: "https://solis-recipies-ebak.vercel.app/",
+    technologies: ["React", "JavaScript", "TheMealDB API"],
+    features: [
+      "Search for meals by name",
+      "Browse recipes by category",
+      "Save favorite recipes",
+    ],
+    challenge:
+      "Making a large collection of recipes straightforward to explore.",
+    solution:
+      "Provide recipe search, category filters, and saved recipes alongside meal imagery.",
   },
 ];

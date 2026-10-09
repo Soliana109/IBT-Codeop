@@ -18,7 +18,7 @@ const Contact = () => {
 
           <div className="text-5xl mb-4">🎉</div>
 
-          <h2 className="text-3xl font-bold text-green-500">
+          <h2 className="text-3xl font-bold text-sage-600">
             Message Sent!
           </h2>
 
@@ -36,8 +36,8 @@ const Contact = () => {
 
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-indigo-400/20 blur-3xl rounded-full"></div>
-        <div className="absolute bottom-10 right-10 w-72 h-72 bg-purple-400/20 blur-3xl rounded-full"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-sage-400/20 blur-3xl rounded-full"></div>
+        <div className="absolute bottom-10 right-10 w-72 h-72 bg-sage-500/20 blur-3xl rounded-full"></div>
       </div>
 
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10">
@@ -57,7 +57,7 @@ const Contact = () => {
               name="name"
               required
               placeholder="Your Name"
-              className="w-full px-4 py-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full px-4 py-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-sage-500"
             />
 
             <input
@@ -65,7 +65,7 @@ const Contact = () => {
               name="email"
               required
               placeholder="Your Email"
-              className="w-full px-4 py-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full px-4 py-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-sage-500"
             />
 
             <ValidationError
@@ -79,7 +79,7 @@ const Contact = () => {
               required
               rows={6}
               placeholder="Tell me about your project..."
-              className="w-full px-4 py-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-none"
+              className="w-full px-4 py-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-sage-500 resize-none"
             />
 
             <ValidationError
@@ -91,7 +91,7 @@ const Contact = () => {
             <button
               type="submit"
               disabled={state.submitting}
-              className="w-full py-3 rounded-xl bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full py-3 rounded-xl bg-sage-700 text-white font-medium hover:bg-sage-800 transition disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {state.submitting
                 ? "Sending..."
@@ -112,18 +112,18 @@ const Contact = () => {
             <div className="space-y-4">
 
               <div className="flex items-center gap-3">
-                <EnvelopeIcon className="w-5 h-5 text-indigo-500" />
+                <EnvelopeIcon className="w-5 h-5 text-sage-600" />
 
                 <a
                   href="mailto:your@email.com"
-                  className="text-gray-700 dark:text-gray-300 hover:text-indigo-500 transition"
+                  className="text-gray-700 dark:text-gray-300 hover:text-sage-700 transition"
                 >
                   solianaalemayehukinfe@gmail.com
                 </a>
               </div>
 
               <div className="flex items-center gap-3">
-                <MapPinIcon className="w-5 h-5 text-indigo-500" />
+                <MapPinIcon className="w-5 h-5 text-sage-600" />
 
                 <span className="text-gray-700 dark:text-gray-300">
                   Addis Ababa, Ethiopia

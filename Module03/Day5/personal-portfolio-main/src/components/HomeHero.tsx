@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import heroimg from "../assets/idphoto.jpg";
 const HomeHero = () => {
   return (
-<section className="w-full min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-indigo-50 to-indigo-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+<section className="w-full min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-sage-50 to-sage-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
         
         {/* LEFT CONTENT */}
@@ -14,7 +14,7 @@ const HomeHero = () => {
             transition={{ duration: 0.6 }}
           >
             Hi, I'm{" "}
-            <span className="text-indigo-600 dark:text-indigo-400">
+            <span className="text-sage-700 dark:text-sage-300">
              Soliana
             </span>
           </motion.h1>
@@ -48,7 +48,7 @@ const HomeHero = () => {
           >
             <a
               href="#projects"
-              className="px-6 py-3 bg-indigo-600 text-white rounded-2xl shadow-md hover:bg-indigo-700 transition-all duration-300"
+              className="px-6 py-3 bg-sage-700 text-white rounded-2xl shadow-md hover:bg-sage-800 transition-all duration-300"
             >
               View Projects
             </a>
@@ -69,7 +69,7 @@ const HomeHero = () => {
   animate={{ opacity: 1, scale: 1 }}
   transition={{ duration: 0.6 }}
 >
-<div className="w-80 h-80 md:w-[28rem] md:h-[34rem] rounded-3xl bg-gradient-to-tr from-indigo-500 to-purple-500 p-1 shadow-xl">    {/* Inner container with overflow-hidden */}
+<div className="w-80 h-80 md:w-[28rem] md:h-[34rem] rounded-3xl bg-gradient-to-tr from-sage-500 to-sage-700 p-1 shadow-xl">    {/* Inner container with overflow-hidden */}
     <div className="w-full h-full rounded-3xl overflow-hidden bg-white dark:bg-gray-900 flex items-center justify-center">
       <img
         src={heroimg}

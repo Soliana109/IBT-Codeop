@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gradient-to-r from-purple-100 to-indigo-100 dark:from-gray-900 dark:to-gray-800 border-t border-purple-200 dark:border-gray-700">
+    <footer className="w-full bg-gradient-to-r from-sage-100 to-sage-50 dark:from-gray-900 dark:to-gray-800 border-t border-sage-200 dark:border-gray-700">
 
       <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-10">
 
@@ -14,9 +14,9 @@ const Footer = () => {
           </h3>
 
           <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-            <li><a href="#home" className="hover:text-indigo-600 transition">Home</a></li>
-            <li><a href="#projects" className="hover:text-indigo-600 transition">Projects</a></li>
-            <li><a href="/contact" className="hover:text-indigo-600 transition">Contact</a></li>
+            <li><a href="#home" className="hover:text-sage-700 transition">Home</a></li>
+            <li><a href="#projects" className="hover:text-sage-700 transition">Projects</a></li>
+            <li><a href="/contact" className="hover:text-sage-700 transition">Contact</a></li>
           </ul>
         </div>
 
@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="flex gap-6 text-gray-600 dark:text-gray-300">
             
             <a
-              href="https://github.com/Soliana109/IBT-Codeop"
+              href="https://github.com/Soliana109"
               target="_blank"
               rel="noreferrer"
               className="hover:text-black dark:hover:text-white transition flex items-center gap-2"
@@ -46,8 +46,8 @@ const Footer = () => {
       </div>
 
       {/* ================= BOTTOM ================= */}
-      <div className="border-t border-purple-200 dark:border-gray-700 py-5 text-center text-sm text-gray-600 dark:text-gray-400">
-        Built by <span className="font-semibold text-gray-900 dark:text-white">Soliana A.</span> © {new Date().getFullYear()}
+      <div className="border-t border-sage-200 dark:border-gray-700 py-5 text-center text-sm text-gray-600 dark:text-gray-400">
+        Built by <span className="font-semibold text-gray-900 dark:text-white">Soliana Alemayehu</span> © {new Date().getFullYear()}
       </div>
 
     </footer>
